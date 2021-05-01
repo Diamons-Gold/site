@@ -10,8 +10,7 @@
     /* Text colors */
     --text-normal: #dcddde;
     --text-principal: #8e9297;
-    --text-link: #00b0f4;
-    --text-link-select: #00FFFF;
+    --text-link: #ff9403;
 }
 
 /* Basic balise */
@@ -41,6 +40,7 @@ section {
 footer {
     background-color: var(--bg-secondary-alt);
     color: var(--text-principal);
+    margin: 15px;
 }
 
 a {
@@ -51,6 +51,7 @@ a {
 /* Banner */
 
 #banner {
+    margin-bottom: 15px;
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -90,18 +91,20 @@ nav {
 }
 
 #navigation a {
-    width: 125px;
-    height: 30px;
+    width: 120px;
+    height: 25px;
     margin: 0 10px;
     color: var(--bg-tertiary);
     background-color: var(--text-link);
     border-radius: 30px;
-    line-height: 30px;
+    line-height: 25px;
+    border: solid var(--text-link);
 }
 
 #navigation a:hover {
-    background-color: var(--text-link-select);
+    background-color: var(--bg-secondary);
     transition: 1s;
+    color: var(--text-link);
 }
 
 /* Separation */
@@ -182,11 +185,11 @@ iframe {
 }
 
 button {
-    background-color: var(--bg-tertiary);
-    color: var(--text-principal);
+    background-color: var(--text-link);
+    border: solid var(--text-link);
+    color: var(--bg-tertiary);
     font-size: larger;
     transition: 0.5s;
-    border: none;
     margin: 0 -2.5px 10px -2.5px;
     width: 35px;
     height: 35px;
@@ -194,12 +197,15 @@ button {
 
 button:hover {
     background-color: var(--bg-secondary-alt);
+    color: var(--text-link);
 }
 
 #button_left {
     border-radius: 50% 0 0 50%;
+    border-right: none;
 }
 
 #button_right {
     border-radius: 0 50% 50% 0;
+    border-left: none;
 }
