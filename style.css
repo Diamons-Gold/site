@@ -182,5 +182,24 @@ iframe {
 }
 
 button {
-    margin-bottom: 10px;
+    background-color: var(--bg-tertiary);
+    color: var(--text-principal);
+    font-size: larger;
+    transition: 0.5s;
+    border: none;
+    margin: 0 -2.5px 10px -2.5px;
+    width: 35px;
+    height: 35px;
+}
+
+button:hover {
+    background-color: var(--bg-secondary-alt);
+}
+
+#button_left {
+    border-radius: 50% 0 0 50%;
+}
+
+#button_right {
+    border-radius: 0 50% 50% 0;
 }
