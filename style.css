@@ -10,6 +10,7 @@
     /* Text colors */
     --text-normal: #dcddde;
     --text-principal: #8e9297;
+    --text-title: #ffffff;
     --text-link: #ff9403;
 }
 
@@ -57,6 +58,7 @@ a {
     flex-direction: row;
     text-align: left;
     align-items: center;
+    color: var(--text-title);
 }
 
 #banner_title {
@@ -155,6 +157,7 @@ nav {
 #carrousel_microbit {
     margin-left: 10%;
     margin-right: 10%;
+    color: var(--text-normal);
 }
 
 #exo {
