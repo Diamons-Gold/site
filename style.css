@@ -136,9 +136,8 @@ nav {
 /* Body */
 
 #body {
-    margin-top: 25px;
+    margin-top: -20px;
     padding-bottom: 25px;
-    /* height: 10000px; */
 }
 
 /* Microbit */
@@ -158,33 +157,33 @@ nav {
     margin-left: 10%;
     margin-right: 10%;
     color: var(--text-normal);
+    overflow-x: hidden;
 }
 
 #exo {
     color: var(--text-principal);
     font-size: x-large;
+    position: relative;
+    margin: 0;
 }
 
 #consigne {
     display: flex;
     justify-content: flex-start;
-    overflow: clip;
     align-items: center;
-    margin-left: -12.5%;
-    width: 125%;
-    transform: translate(-200%, 0);
+    width: 100%;
+    position: relative;
 }
 
 #consigne p {
-    position: relative;
     min-width: 100%;
-    overflow: hidden;
 }
 
 iframe {
-    width: 100%;
+    width: 99%;
     height: 500px;
     border: 1px #d6d6d6 solid;
+    overflow-x: visible;
 }
 
 button {
