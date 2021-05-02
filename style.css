@@ -172,6 +172,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    transition: 0.5s;
     position: relative;
 }
 
