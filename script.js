@@ -33,6 +33,6 @@ function change(add) {
 
     document.getElementById("exo").innerHTML = "Exercice " + exo_num;
     document.getElementById('iframe').src = iframe_src[num + add];
-    document.getElementById("consigne").style.transform = "translate(-200%, 0);"
+    document.getElementById("consigne").style.transform = "translate(-" + ((num + add)*100) + "%, 0)";
     num += add
   }
