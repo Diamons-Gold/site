@@ -18,6 +18,7 @@
 
 html {
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -48,6 +49,11 @@ a {
     text-decoration: none;
     color: var(--text-link);
     cursor: pointer;
+}
+
+div:target { /* sur élevé l'ancre */
+    padding-top: 7em; 
+    margin-top: -7em; 
 }
 
 /* Banner */
