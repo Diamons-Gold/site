@@ -257,3 +257,16 @@ button:hover {
     margin-top: 25px;
     height: 700px;
 }
+
+/* Banner */
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img {
+    position: relative;
+    width: 80%;
+}
